@@ -1,0 +1,64 @@
+.list {
+   
+    
+    li {
+        
+        align-items: center;
+        padding: 10px 12px;
+        cursor: pointer;
+
+        &.active {
+            background: #ffffff;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+            border-radius: 4px;
+            margin-bottom: 40px;
+            
+
+        }
+
+        span {
+            font-size: 25px;
+        }
+
+        i {
+            display: inline-flex;
+            margin-right: 10px;
+
+            svg {
+                path {
+                    fill: #a82d2d;
+                }
+            }
+
+            .bage {
+                
+            width: 10px;   
+            height: 10px;
+            border-radius: 30px;
+
+            &--green  {
+                background-color: #42b883;
+            }
+
+            &--blue {
+                background-color: #34aad8 ;
+            }
+            
+            &--rose {
+                background-color: rgb(153, 24, 153);
+            }
+
+            &--orange {
+                background-color: rgb(218, 62, 62);
+            }
+
+            &--violet {
+                background-color: rgb(73, 58, 209);
+            }
+                        }
+                    }
+                }
+            }
+
+
+                

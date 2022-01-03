@@ -23,7 +23,24 @@ function App() {
                 fill="black" />
             </svg>
             ),
-            title: "All tasks todo"
+            title: "All tasks todo",
+            active: "true"
+          },
+          {
+            color : "green",
+            title: "To purchase"
+          },
+          {
+            color : "blue",
+            title: "Study"
+          },
+          {
+            color : "rose",
+            title: "Movies and Series"
+          },
+          {
+            color : "orange",
+            title: "Books"
           }
         ]} />
       </div>
